@@ -49,6 +49,9 @@ export default {
         }
       ]
     };
+  },
+  asyncData({ $axios }) {
+    return $axios.get("/peliculas/").then(res => {console.log(res);});
   }
 };
 </script>

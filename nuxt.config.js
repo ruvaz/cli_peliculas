@@ -41,6 +41,9 @@ export default {
     // Doc: https://buefy.github.io/#/documentation
     'nuxt-buefy',
   ],
+  axios: {
+    baseURL: "http://127.0.0.1:8844/api/v1"
+  },
   /*
   ** Build configuration
   */
